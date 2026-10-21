@@ -73,10 +73,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp LC(LEFT_ARROW)    &kp LEFT_ARROW        &kp UP_ARROW    &kp RIGHT         &kp LC(RIGHT)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(MINUS)         &kp LC(DOWN)          &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LG(PLUS)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                        &trans
+&kp LA(LC(D))  &kp LA(LC(F))  &kp LA(LC(G))   &kp LA(LC(U))         &kp LA(LC(I))                             &kp LC(LEFT_ARROW)    &kp LEFT_ARROW        &kp UP_ARROW    &kp RIGHT         &kp LC(RIGHT)
+&kp LA(LC(C))  &kp LC(LA(V))  &kp LA(LC(B))   &kp LA(LC(J))         &kp LA(LC(K))         &trans      &trans  &kp LG(MINUS)         &kp LC(DOWN)          &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LG(PLUS)
+&trans         &trans         &kp LG(LS(N3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans      &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP
+&trans         &trans         &trans          &trans                &trans                &trans      &trans  &trans                                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
